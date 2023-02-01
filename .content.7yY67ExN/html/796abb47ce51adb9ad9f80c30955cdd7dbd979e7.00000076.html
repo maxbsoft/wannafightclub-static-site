@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Перенеси драку из реальности в смартфон! Создай виртуальный клон своего тела и отправляй его драться с клонами других людей!">
+  <meta property="og:image" content="https://wannafightclub.com/share_banner_1031x480.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Wanna Fight?">
+  <meta property="og:description" content="Перенеси драку из реальности в смартфон! Создай виртуальный клон своего тела и отправляй его драться с клонами других людей!">
+  <meta property="og:url" content="https://wannafightclub.com/ru">
+  <meta property="og:site_name" content="wannafightclub.com">
+  <link rel="icon" href="favicon.ico">
+  <meta name="google-play-app" content="app-id=com.wannafight">
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <title>Wanna Fight?</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+  <link href="css/wf.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8">
+  <link rel="stylesheet" href="css/wf.css?x=3" type="text/css" media="screen" charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Open+Sans+Condensed:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+  <style>
+        .modal-dialog {width:600px;}
+        .thumbnail {margin-bottom:6px;}
+
+
+        .blur {
+            box-shadow: 0px 0px 20px 20px rgba(255,255,255,1);
+            text-shadow: 0px 0px 10px rgba(51, 51, 51, 0.9);
+            transform: scale(0.9);
+            opacity: 0.6;
+            -webkit-filter: blur(2px);
+            -moz-filter: blur(2px);
+            -o-filter: blur(2px);
+            -ms-filter: blur(2px);
+            filter: blur(2px);
+        }
+  </style>
+</head>
+<body class="firewatch launch withxbone">
+  <img style="position: absolute; top:0px; width: 1031px; height: 480px;" src="/share_banner_1031x480.jpg">
+  <div style="position: absolute; top:0px; left:0px; right:0px; height:75px; z-index: 1000000;">
+    <div class="navbar-top">
+      <a href="/">English</a> | <a href="/ru">Русский</a>
+    </div>
+  </div>
+  <div class="keyart" id="nonparallax"></div>
+  <div class="keyart" id="parallax">
+    <div class="keyart_layer parallax" id="keyart-0" data-speed="2"></div>
+    <div class="keyart_layer parallax" id="keyart-1" data-speed="5"></div>
+    <div class="keyart_layer parallax" id="keyart-3" data-speed="10"></div>
+    <div class="keyart_layer" id="keyart-scrim"></div>
+    <div class="keyart_layer parallax" id="keyart-4" data-speed="29"></div>
+    <div class="keyart_layer parallax" id="keyart-2" data-speed="20"></div>
+    <div class="keyart_layer" id="keyart-5" data-speed="100"></div>
+  </div>
+  <div id="body-section">
+    <div class="container">
+      <div class="section pressquote big">
+        <h2>"Wanna Fight" – только для носителей тестостерона.</h2>
+      </div>
+      <div class="section feature">
+        <div class="myvideo">
+          <iframe width="940" height="505" src="https://www.youtube.com/embed/D9ggia-J1eQ" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="section pressquote big">
+        <h3>О приложении</h3>
+      </div>
+      <div class="section description">
+        <p>С помощью «Wanna Fight» вы сможете создать в смартфоне свой виртуальный клон с вашими физическими характеристиками. Этот виртуальный клон готов драться против таких же клонов других пользователей.</p>
+      </div>
+      <div class="section pressquote big">
+        <h3>Функции</h3>
+      </div>
+      <div class="section description">
+        <p>Для создания клона нужно ввести свой вес, рост и показатель мышечной силы (количество подтягиваний) - на основании этих данных приложение рассчитает для него здоровье, выносливость и один из четырнадцати типов телосложений. После этого вы сможете вызвать противника на бой. Перед каждой дракой оппоненты с помощью встроенного в телефон акселерометра определяют скорость удара для расчета силы удара. Вам надо будет взять в руку телефон и по сигналу нанести удар как можно быстрее. Сразу после измерения ваши клоны начнут драку, а вам останется наблюдать за её исходом: «Wanna Fight» смоделирует их анимированный бой. К сожалению, с помощью приложения невозможно оценить смелость оппонентов, морально-волевые качества и опыт в единоборствах, поэтому результат боя следует расценивать только с точки зрения физических параметров.</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-sm-3 col-xs-6">
+          <a href="#" title=""><img src="/images/ru/screen_1_small.png" class="thumbnail img-responsive"></a>
+        </div>
+        <div class="col-lg-3 col-sm-3 col-xs-6">
+          <a href="#" title=""><img src="/images/ru/screen_2_small.png" class="thumbnail img-responsive"></a>
+        </div>
+        <div class="col-lg-3 col-sm-3 col-xs-6">
+          <a href="#" title=""><img src="/images/ru/screen_4_small.png" class="thumbnail img-responsive"></a>
+        </div>
+        <div class="col-lg-3 col-sm-3 col-xs-6">
+          <a href="#" title=""><img src="/images/ru/screen_3_small.png" class="thumbnail img-responsive"></a>
+        </div>
+      </div>
+      <div class="section pressquote big">
+        <h3>Поиск оппонентов</h3>
+      </div>
+      <div class="section description">
+        <p>Чтобы виртуально выяснить отношения с конкретным человеком, вы можете ввести его никнейм в поле поиска. Также вы сможете вызвать на бой друга из списка своих контактов. Если у вас нет конкретной цели, но кулаки всё равно чешутся – вы можете найти подходящего соперника в своей весовой категории.</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-sm-3 col-xs-6">
+          <a href="#" title=""><img src="/images/ru/screen_7_small.png" class="thumbnail img-responsive"></a>
+        </div>
+        <div class="col-lg-3 col-sm-3 col-xs-6">
+          <a href="#" title=""><img src="/images/ru/screen_8_small.png" class="thumbnail img-responsive"></a>
+        </div>
+        <div class="col-lg-3 col-sm-3 col-xs-6">
+          <a href="#" title=""><img src="/images/ru/screen_9_small.png" class="thumbnail img-responsive"></a>
+        </div>
+        <div class="col-lg-3 col-sm-3 col-xs-6">
+          <a href="#" title=""><img src="/images/ru/screen_10_small.png" class="thumbnail img-responsive"></a>
+        </div>
+      </div>
+      <div class="section pressquote big">
+        <h3>Зачем нужен Wanna Fight?</h3>
+      </div>
+      <div class="section description">
+        <p>Как часто за день у вас возникает желание с кем-то подраться? Признайтесь, некоторые ситуации сами заставляют кулаки сжаться. Однако, почти всегда нас что-то останавливает. Все понимают: когда лезешь в драку – будь готов получить в ответ, а некоторые стесняются ходить неделю с разукрашенным лицом. Ещё драки опасны для здоровья, если вы не главный герой кинобоевика. Этих даже лопатой не убьёшь. К тому же драка – это не всегда законно. Или как быть, если в интернете опять кто-то неправ? Кому охота ездить по IP адресам с карательными экспедициями? Бывает, избивать кого-то просто жалко, хотя, может, и стоило бы. Ведь у всех есть «друзья», которые слишком много разговаривают, но бить их не принято. Друзья ведь. Так вот: теперь можно забыть обо всех этих ограничениях, ведь у вас есть «Wanna Fight»! Наше приложение позволяет без проблем и последствий пуститься в настоящий мордобой с кем угодно в любое время суток!</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-sm-12 col-12">
+          <a href="#" title=""><img style="width:100%" src="/images/battle_1_big.png" class="thumbnail img-responsive"></a>
+        </div>
+        <div class="col-lg-6 col-sm-12 col-12">
+          <a href="#" title=""><img style="width:100%" src="/images/battle_2_big.png" class="thumbnail img-responsive"></a>
+        </div>
+      </div>
+      <div class="section pressquote big">
+        <h3>Планы на ближайшие обновления</h3>
+      </div>
+      <div class="section description">
+        <p>- Управление боем: вы сможете выбирать места, по которым хотите бить соперника и которые хотите прикрыть блоком при его атаках.<br>
+        - Перенос лица пользователя с фотографии на лицо его виртуального клона.<br>
+        - Создание и участие в турнирах на выбывание.<br>
+        - Различные скины для клонов (костюмы и аксессуары), а также анимацию боевой хореографии (стиль капоэйра, стиль пьяный мастер и т.д.), чтобы драки стали гораздо более весёлыми и разнообразными.</p>
+      </div>
+      <div class="section pressquote big">
+        <h3>История создания</h3>
+      </div>
+      <div class="section description">
+        <p>Однажды в социальной сети произошло невероятное явление: два парня доказывали друг другу абсолютно разные точки зрения! Рациональные аргументы плавно перетекли в оскорбления, а после в угрозы. Началась словесная драка с ужасающими вербальными фаталити. По какой-то причине я захотел помочь парням выяснить отношения и внезапно встрял в их перепалку. Я предложил им узнать, кто победил бы в драке, если бы она состоялась по- настоящему. Ребята проявили энтузиазм и согласились оказать мне всяческое содействие. Решение было простым: каждый из них написал мне в личном сообщении свой рост, вес и показатель мышечной силы - количество подтягиваний, которые он может сделать за один раз. После нехитрых подсчётов выяснилось, что один из спорщиков оказался гораздо крупнее другого по габаритам, о чём я и сообщил парням. Чисто с физической точки зрения в драке один из них безоговорочно оказался бы сильнее. Стоит сказать, что никто не протестовал против такого результата. Напротив, ребята сошлись на том, что исход вполне справедлив и, насколько мне известно, впоследствии даже подружились. Так и пришла идея создать уникальное мобильное приложение, которое позволяет перенести драку из реального мира в виртуальный.</p>
+      </div>
+      <div class="section buy"><img alt='Get it on App Store' style="max-width:100%;" src='/app-store-logo.png'> <img style="max-width:100%;" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'></div>
+      <div class="section description text-align">
+        <h5>Устанавливайте «Wanna Fight» на свои мобильные телефоны и испытайте, на что способно ваше виртуальное тело!</h5>
+      </div>
+      <div class="section social-box">
+        <div class="row">
+          <div class="col-md-4"></div>
+          <div class="col-md-4">
+            <p>Мы в соцсетях</p>
+            <ul class="social-network social-circle">
+              <li><i class="fa fa-vk"></i></li>
+              <li><i class="fa fa-facebook"></i></li>
+              <li><i class="fa fa-twitter"></i></li>
+            </ul>
+          </div>
+          <div class="col-md-4"></div>
+        </div>
+      </div>
+      <div class="section">
+        <a href="/">English</a> | <a href="/ru">Русский</a>
+      </div><br>
+      <br>
+      <br>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+  <script>
+
+  window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+  </script> 
+  <script src="js/bootstrap.min.js"></script> 
+  <script src="js/ie10-viewport-bug-workaround.js"></script> 
+  <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script> 
+  <script type="text/javascript" src="js/jquery.mousewheel.min.js"></script> 
+  <script type="text/javascript" src="js/jquery.simplr.smoothscroll.min.js"></script> 
+  <script type="text/javascript" src="js/plag.js"></script> 
+  <script type="text/javascript">
+
+
+
+    function ready() {
+        console.log("ready")
+        $('.thumbnail').click(function(){
+            $('.modal-body').empty();
+            var title = $(this).parent('a').attr("title");
+            $('.modal-title').html(title);
+            $($(this).parents('div').html().replace("_small", "_big")).appendTo('.modal-body');
+            $('#myModal').modal({show:true});
+
+            console.log("$(window).width():", $(window).width());
+            if($(window).width()<600){
+                const width = $(window).width()-20;
+                $('#myModal .modal-dialog').css("width", width+'px');
+            }
+            return false;
+        });
+
+        /* blur on modal open, unblur on close */
+        $('#myModal').on('show.bs.modal', function () {
+            $('.col-6,.row .thumbnail').addClass('blur');
+        })
+
+        $('#myModal').on('hide.bs.modal', function () {
+            $('.col-6,.row .thumbnail').removeClass('blur');
+        })
+    }
+    document.addEventListener("DOMContentLoaded", ready);
+
+
+  </script>
+</body>
+</html>

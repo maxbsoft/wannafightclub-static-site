@@ -1,0 +1,348 @@
+/*
+ * Globals
+ */
+
+body {
+  /*font-family: Georgia, "Times New Roman", Times, sans-serif;*/
+  font-family: 'Montserrat', sans-serif;
+  color: #555;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-weight: normal;
+  color: #ffaf00;;
+}
+
+/*.section.pressquote.big h2 {
+    font-size: 32px;
+    letter-spacing: 1px;
+}*/
+
+.section.feature {
+  margin-bottom: 40px;
+}
+
+.section.pressquote {
+  margin-bottom: 10px;
+}
+.section.description{
+  font-size: 18px;
+  max-width: 100%;
+  margin-top: 30px;
+}
+
+.section.buy h2 {
+    font-size: 24px;
+    letter-spacing: 7px;
+}
+.section.description.text-align{
+  text-align: center;
+}
+
+/*.section.support .supportlinks li {
+    width: 70%;
+}*/
+
+.withxbone .section.buy h2.banner span {
+    font-size: 100%;
+}
+
+#body-section{
+  margin-left: auto;
+	margin-right: auto;
+	z-index: 99;
+	position: relative;
+	/*background-color: #20100a;*/
+  background-image: url('../images/bg-color.png');
+  padding-top: 40px;
+}
+.up-menu{
+  position: absolute;
+  top: 0;
+  left: 0px;
+  right: 0px;
+  z-index: 9999;
+}
+/*
+ * Override Bootstrap's default container.
+ */
+
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+
+#nonparallax {
+	background-image: url('../images/all_new.jpg');
+}
+
+.keyart_layer {
+	background-size: auto 1080px;
+}
+
+#keyart-0 {
+  background-image: url('../images/parallax-2/parallax0.png');
+  background-color: #ffaf1b;
+}
+#keyart-1 {
+  background-image: url('../images/parallax-2/parallax1.png');
+}
+#keyart-2 {
+  background-image: url('../images/parallax-2/parallax2.png');
+}
+#keyart-3 {
+  background-image: url('../images/parallax-2/parallax3.png');
+}
+#keyart-4 {
+  background-image: url('../images/parallax-2/parallax4.png');
+}
+#keyart-5 {
+  background-image: url('../images/parallax-2/parallax5.png');
+}
+
+@media only screen and (max-device-width: 600px) {
+
+  #body-section{
+    padding-top: 0px;
+    margin-top: -100px;
+  }
+  .keyart, .keyart_layer {
+      height: 480px;
+  }
+
+  .withxbone .section.buy h2.banner span {
+    padding-left: 8px;
+    padding-right: 2px;
+    font-size: 80%;
+  }
+}
+
+/*
+ * Masthead for nav
+ */
+
+.wf-masthead {
+  background-color: #428bca;
+  -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+          box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+}
+
+/* Nav links */
+.wf-nav-item {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  font-weight: 500;
+  color: #cdddeb;
+}
+.wf-nav-item:hover,
+.wf-nav-item:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Active state gets a caret at the bottom */
+.wf-nav .active {
+  color: #fff;
+}
+.wf-nav .active:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+  vertical-align: middle;
+  content: " ";
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid;
+  border-left: 5px solid transparent;
+}
+
+
+/*
+ * Blog name and description
+ */
+
+.wf-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.wf-title {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 60px;
+  font-weight: normal;
+}
+.wf-description {
+  font-size: 20px;
+  color: #999;
+}
+
+
+/*
+ * Main column and sidebar layout
+ */
+
+.wf-main {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Sidebar modules for boxing content */
+.sidebar-module {
+  padding: 15px;
+  margin: 0 -15px 15px;
+}
+.sidebar-module-inset {
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+
+/* Pagination */
+.pager {
+  margin-bottom: 60px;
+  text-align: left;
+}
+.pager > li > a {
+  width: 140px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+
+/*
+ * Blog posts
+ */
+
+.wf-post {
+  margin-bottom: 60px;
+}
+.wf-post-title {
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+.wf-post-meta {
+  margin-bottom: 20px;
+  color: #999;
+}
+
+/* Social Icon*/
+
+.social-box{
+  margin: 30px 0 50px 0;
+}
+
+.section.social-box p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #973700;
+}
+
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+
+/* footer social icons */
+.social-network a.icoSS {
+	background-color: #973700;
+}
+.social-network a.icoSS:hover {
+	background-color: #ffaf00;
+}
+
+.social-network a.icoSS:hover i{
+	color: #210002;
+}
+
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+}
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.social-circle i {
+	color: #210002;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+.social-network a{
+ /*background-color: #D3D3D3;*/
+ /*border: 1px solid #973700;*/
+}
+
+.myvideo {
+position:relative;
+padding-bottom:56.25%;
+padding-top:30px;
+height:0;
+overflow:hidden;
+/*border:1px solid #ccc;*/
+}
+.myvideo iframe,.myvideo object,.myvideo embed {
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+}
+
+/*
+ * Footer
+ */
+
+.wf-footer {
+  padding: 40px 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+}
+.wf-footer p:last-child {
+  margin-bottom: 0;
+}
