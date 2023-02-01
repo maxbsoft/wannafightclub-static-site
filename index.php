@@ -30,7 +30,7 @@
  * @link       https://archivarix.com
  */
 
-@ini_set( 'display_errors', 1 );
+// @ini_set( 'display_errors', 1 );
 
 /**
  * Switch mode to integrate with 3rd party CMS.
